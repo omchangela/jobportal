@@ -1,0 +1,76 @@
+.button {
+  outline: none;
+  max-width: 10rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 24px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 2px solid transparent;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.largeButton {
+  font-size: 18px;
+  letter-spacing: -0.0025em;
+  line-height: 26px;
+  padding: 16px 20px;
+}
+
+.button:disabled {
+  background-color: var(--neutral);
+}
+
+.withIcon {
+  justify-content: space-between;
+  cursor: default;
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.primary:hover {
+  background-color: var(--primary-focus);
+}
+
+.secondary {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.secondary:hover {
+  background-color: var(--secondary-focus);
+}
+
+.outline {
+  background-color: transparent;
+  border: 2px solid;
+}
+
+.outline:hover {
+  opacity: 0.7;
+}
+
+.button:disabled {
+  background-color: var(--neutral);
+  cursor: not-allowed;
+}
+
+.icon {
+  display: flex;
+  transform: translateY(-1px);
+  cursor: pointer;
+  color: var(--neutral-focus);
+}
+
+.icon:hover {
+  color: rgb(251, 234, 2);
+}

@@ -1,0 +1,16 @@
+{
+  "monthlySalary": "55000",
+  "skills": ["react", "nextjs", "webpack"],
+  "companyName": "ACME corp.",
+  "logo": "https://1000logos.net/wp-content/uploads/2022/10/Noodles-and-Company-Logo-1995.png",
+  "jobPostion": "Frontend Developer",
+  "jobType": "Fulltime",
+  "category": "Remote",
+  "location": "Mumbai",
+  "description": "We are looking for a responsible PHP/WordPress/Laravel/Shopify Developer. He/She will be liable for managing services and therefore the interchange of knowledge between the server and the users. The candidate's primary focus is going to be the event of all server-side logic, definition, and maintenance of the central database and ensuring high performance and responsiveness to requests from the front end.",
+  "about": "We provide technology-based services to help businesses and organizations achieve their goals. We offer a wide range of services, including software development, system integration, network and security services, cloud computing, and data analytics. Our primary focus is on leveraging technology to streamline business processes, improve productivity, and enhance overall efficiency.",
+  "information": "abra ka dabra",
+  "createdBy": {
+    "$oid": "6572f82c3617cc3cb8edaa95"
+  }
+}

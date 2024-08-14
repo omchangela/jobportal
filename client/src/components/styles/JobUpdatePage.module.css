@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: var(--secondary);
+}
+
+.banner {
+  flex: 3;
+}
+
+.wrapper {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
